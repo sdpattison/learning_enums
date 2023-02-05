@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    enum companies { Google, Facebook, Xerox, Yahoo, Ebay, Microsoft, Amazon };
-    enum companies companyOne = Xerox;
-    enum companies companyTwo = Google;
-    enum companies companyThree = Ebay;
+    enum Company { Google, Facebook, Xerox, Yahoo, Ebay, Microsoft, Amazon };
+    enum Company companyOne = Xerox;
+    enum Company companyTwo = Google;
+    enum Company companyThree = Ebay;
     printf("%d\n%d\n%d\n", companyOne, companyTwo, companyThree);
     return 0;
 }
